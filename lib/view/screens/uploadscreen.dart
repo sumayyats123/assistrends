@@ -30,7 +30,7 @@ class UploadScreen extends StatelessWidget {
                       hintStyle: TextStyle(color: Colors.grey[700], fontSize: 20),
                       border: const OutlineInputBorder(),
                       enabledBorder: const OutlineInputBorder(
-                          borderSide: BorderSide(color: Color(0xFF2B4DFC)))),
+                          borderSide: BorderSide(color:Color(0xFF2B4DFC)))),
                 ),
                 kheight20,
                 Stack(
@@ -76,7 +76,7 @@ class UploadScreen extends StatelessWidget {
                         backgroundColor: const Color(0xFF2B4DFC).withOpacity(0.7),
                         child: const Icon(
                           Icons.add,
-                          size: 20,
+                          size: 25 ,
                           color: Colors.white,
                         ),
                       ),
@@ -123,7 +123,7 @@ class UploadScreen extends StatelessWidget {
                         backgroundColor: const Color(0xFF2B4DFC).withOpacity(0.7),
                         child: const Icon(
                           Icons.add,
-                          size: 20,
+                          size: 25,
                           color: Colors.white,
                         ),
                       ),
@@ -170,7 +170,7 @@ class UploadScreen extends StatelessWidget {
                         backgroundColor: const Color(0xFF2B4DFC).withOpacity(0.7),
                         child: const Icon(
                           Icons.add,
-                          size: 20,
+                          size: 25 ,
                           color: Colors.white,
                         ),
                       ),
@@ -210,26 +210,26 @@ class UploadScreen extends StatelessWidget {
           alignment: Alignment.center,
           children: [
             BottomAppBar(
-              color: Colors.black, // Background color for the BottomAppBar
+              color: Colors.black,
               shape: const CircularNotchedRectangle(),
-              notchMargin: 6, // Margin around the FAB
+              notchMargin: 6, 
               child: SizedBox(
-                height: 70, // Set a fixed height for the BottomAppBar
+                height: 70,
                 child: Row(
                   mainAxisAlignment:
-                      MainAxisAlignment.spaceAround, // Ensure even spacing
+                      MainAxisAlignment.spaceAround, 
                   children: [
                     const Icon(Icons.home_outlined,
                         size: 30, color: Color.fromARGB(255, 82, 78, 78)),
                     const Icon(Icons.search,
                         size: 30, color: Color.fromARGB(255, 82, 78, 78)),
-                    const SizedBox(width: 50), // Space for the floating button
+                    const SizedBox(width: 50),
                     Image.asset(
                       "assets/images/choice (1) 2_64@2x.png",
-                      height: 30, // Match the size of other icons
-                      width: 30, // Match the size of other icons
+                      height: 30,
+                      width: 30, 
                       color: const Color.fromARGB(255, 213, 205,
-                          205), // Apply color if the image is monochrome
+                          205), 
                     ),
                     const Icon(Icons.notifications_none,
                         size: 30, color: Color.fromARGB(255, 82, 78, 78)),
@@ -238,20 +238,19 @@ class UploadScreen extends StatelessWidget {
               ),
             ),
             Positioned(
-              bottom: 10, // Fine-tune to align vertically with icons
+              bottom: 10,
               child: ElevatedButton(
                 onPressed: () {
-                  // Action for button
                 },
                 style: ElevatedButton.styleFrom(
                   shape: const CircleBorder(),
                   backgroundColor: const Color(0xFF2B4DFC).withOpacity(0.8),
-                  padding: const EdgeInsets.all(12), // Padding for button size
+                  padding: const EdgeInsets.all(12), 
                 ),
                 child: const Icon(
                   Icons.add,
                   color: Colors.white,
-                  size: 30, // Match size with icons
+                  size: 30, 
                 ),
               ),
             ),
