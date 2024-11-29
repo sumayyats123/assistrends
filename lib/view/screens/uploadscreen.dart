@@ -26,7 +26,7 @@ class UploadScreen extends StatelessWidget {
                   maxLines: 4,
                   textAlign: TextAlign.center,
                   decoration: InputDecoration(
-                      hintText: "Type something",
+                      hintText: "Type something here",
                       hintStyle: TextStyle(color: Colors.grey[700], fontSize: 20),
                       border: const OutlineInputBorder(),
                       enabledBorder: const OutlineInputBorder(
